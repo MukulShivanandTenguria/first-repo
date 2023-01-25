@@ -1,0 +1,18 @@
+[33m1f73c51[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: revert: Revert "copied again LOG in index.js"
+[33m10e8d51[m HEAD@{1}: commit: copied again LOG in index.js
+[33m9d11911[m HEAD@{2}: commit: copied LOG in index.js
+[33m8e699f4[m HEAD@{3}: commit: added LOG IN index.js
+[33m437b8ad[m HEAD@{4}: commit: added some test in index.js
+[33m71dbca5[m[33m ([m[1;31mfirst-repo/main[m[33m)[m HEAD@{5}: commit: uncomment
+[33m0fd3061[m HEAD@{6}: commit: change in js/html
+[33m1b05230[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{7}: checkout: moving from branch2 to main
+[33m4ef8d47[m[33m ([m[1;31morigin/branch2[m[33m, [m[1;32mbranch2[m[33m)[m HEAD@{8}: commit: added first.js
+[33m1b05230[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{9}: checkout: moving from branch1 to branch2
+[33mc93a109[m[33m ([m[1;31morigin/branch1[m[33m, [m[1;32mbranch1[m[33m)[m HEAD@{10}: checkout: moving from branch2 to branch1
+[33m1b05230[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{11}: checkout: moving from main to branch2
+[33m1b05230[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{12}: checkout: moving from branch1 to main
+[33mc93a109[m[33m ([m[1;31morigin/branch1[m[33m, [m[1;32mbranch1[m[33m)[m HEAD@{13}: commit: Added first.html in branch1
+[33m1b05230[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{14}: checkout: moving from main to branch1
+[33m1b05230[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{15}: commit: in new branch
+[33m6e6e074[m HEAD@{16}: commit: first added
+[33m9a94071[m HEAD@{17}: clone: from https://github.com/MukulShivanandTenguria/first-repo.git
