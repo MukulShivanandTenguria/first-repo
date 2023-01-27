@@ -1,3 +1,6 @@
+// const data=require("./data")
+// import * as data from "./data"
+// "use strict"
 // console.log("This is my first repo");
 // var a = 4;
 // console.log(a);
@@ -43,7 +46,7 @@
 //       array.push(i[index])
 //     }
 //   }
-//   i=array 
+//   i=array
 //   console.log(array);
 //   let i1 = "";
 //   i.map((val) => {
@@ -129,10 +132,10 @@
 //   console.log(element);
 // })
 // console.log(letters.values());
-let map1=new Map([
-  ["Name","Mukul"],
-  ["Age",9]
-])
+// let map1=new Map([
+//   ["Name","Mukul"],
+//   ["Age",9]
+// ])
 // console.log(map1);
 // map1.delete("Name","Mukul")
 
@@ -141,4 +144,99 @@ let map1=new Map([
 // map1.forEach((e)=>{
 //   console.log(e);
 // })
-console.log(typeof function myFunc(){} );
+// console.log(typeof function myFunc(){} );
+// a=3
+// console.log(a);
+// const data={
+//   fname:"Mukul",
+//   lname:"Tenguria",
+//   fullname:function(){
+//     return this.fname+" "+this.lname
+//   }
+// }
+// const data1={
+//   fname:"Mukul",
+//   lname:"Tenguria",
+//   fullname:function(){
+//     return this
+//   }
+// }
+// const person2={
+//   fname:"Mukul1",
+//   lname:"Tenguria1",
+// }
+// let fullname=data.fullname.call(person2)
+// let fullname1=data1.fullname()
+// console.log(fullname);
+// console.log(fullname1);
+
+// CLASS
+// let [array1,array2]=data
+// class A{
+//   constructor(fname,lname,height){
+//     this.firstname=fname
+//     this.lastname=lname
+//     this.height=height
+//   }
+//    displayFname(){
+//     console.log(this.firstname);
+//     console.log(this.lastname);
+//     console.log(this.height);
+//   }
+// }
+// let a=new A("Mukul","Tenguria","5.7feet")
+// a.displayFname()
+// console.log(data);
+
+// const data1={
+//   "employees":[
+//     `{"firstName":"John", "lastName":"Doe"}`,
+//     `{"firstName":"Anna", "lastName":"Smith"}`,
+//     `{"firstName":"Peter", "lastName":"Jones"}`
+//   ]
+//   }
+// const data2={
+//   employees:[
+//     {firstName:"John", lastName:"Doe"},
+//     {firstName:"Anna", lastName:"Smith"},
+//     {firstName:"Peter", lastName:"Jones"}
+//   ]
+//   }
+// console.log(data1)
+// console.log(data2)
+// console.log(JSON.stringify(data1))
+// console.log(JSON.stringify(data2))
+// console.log(JSON.stringify(data1))
+// let a = "10";
+// let b = 10;
+// let x =
+//   "Hello \
+// World!";
+//   let x = "Hello \
+// World!";
+// console.log(x);
+// console.log(a === b);
+// function data(){
+//   let num=5;
+//   return num 
+//   num=num+12
+//   console.log(num);
+// }
+// console.log(data());
+
+class A{
+  constructor(fname){
+    this.fname=fname;
+  }
+}
+class B extends A{
+  constructor(fname,lname){
+    super(fname)
+    this.lname=lname;
+  }
+  show(){
+    console.log(this.fname+" "+this.lname);
+  }
+}
+let name1=new B("Mukul","Tenguria")
+name1.show()
