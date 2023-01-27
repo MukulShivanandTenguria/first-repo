@@ -224,19 +224,28 @@
 // }
 // console.log(data());
 
-class A{
-  constructor(fname){
-    this.fname=fname;
-  }
-}
-class B extends A{
-  constructor(fname,lname){
-    super(fname)
-    this.lname=lname;
-  }
-  show(){
-    console.log(this.fname+" "+this.lname);
-  }
-}
-let name1=new B("Mukul","Tenguria")
-name1.show()
+// class A{
+//   constructor(fname){
+//     this.fname=fname;
+//   }
+// }
+// class B extends A{
+//   constructor(fname,lname){
+//     super(fname)
+//     this.lname=lname;
+//   }
+//   show(){
+//     console.log(this.fname+" "+this.lname);
+//   }
+// }
+// let name1=new B("Mukul","Tenguria")
+// name1.show()
+// let vr=5;
+// let v="ghj"
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let fruits2=['Papaya',[...fruits]]
+// console.log(fruits2);
+// const fruits3= ["Banana", "Orange", "Apple", "Mango"];
+
+let set1=new Set([fruits3])
+console.log(set1);
